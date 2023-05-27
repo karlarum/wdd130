@@ -117,7 +117,7 @@
   height: 150px; 
   background-color: green; 
   grid-column: 2/2;
-  grid-row: [row1-start] / [row1-end];
+  grid-row: row1-start / row1-end;
   justify-self: left;
 } 
 .yellow4 {
@@ -125,7 +125,7 @@
   height: 150px; 
   background-color: gold;
   grid-column: 2/2;
-  grid-row: [row1-end] / [third-line];
+  grid-row: row1-end / third-line;
   justify-self: left;
 } 
 .blue4 {
@@ -133,7 +133,7 @@
   height: 150px; 
   background-color: blue;
   grid-column: 2/2;
-  grid-row: [third-line] / [last-line];
+  grid-row: third-line / last-line;
   justify-self: left;
 }
 /* Activity 5 styles */ 
