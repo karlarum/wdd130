@@ -200,6 +200,38 @@ main section img {
     grid-row: 1/2;
     margin-top: 100px;
 }
+/* NEW PAGE */
+#rafting-banner {
+    width: 100%;
+}
+#rates {
+    display: grid;
+    grid-template-columns: 1 fr 3fr 1fr;
+    margin-top: -100px;
+}
+#rates-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#rates-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+    text-align: center;
+}
+.title, .sub-title {
+    color: white;
+    font-family: 'Oswald', 'Helvetica', sans-serif;
+    font-size: 50px;
+}
+#rcorners1 {
+    border-radius: 25px;
+    background: black;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+}
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
