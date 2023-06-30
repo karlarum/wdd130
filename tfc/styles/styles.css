@@ -1,12 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=League+Spartan:wght@800&family=Montserrat:wght@200;300&display=swap');
+
+#content {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+header {
+    opacity: .9;
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #f1efe7;
+}
+.logo {
+    width: 125px;
+}
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a:hover {
+    background-color: #cbcbd4;
+    color: black;
+}
+#hero-img {
+    width: 100%;
+}
+#hero-msg h1 {
+    text-align: center;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 6em;
+    margin-top: 10px;
+    color: #d1b490;
+    text-shadow: 
+    0 0 7px #A4763E,
+    0 0 10px #d1b490,
+    0 0 42px #f1efe7,
+    0 0 92px #f1efe7,
+    0 0 151px #f1efe7;
+    animation: pulsate 0.11s ease-in-out infinite alternate;
+}
+@keyframes pulsate {
+    100% {
+        text-shadow:
+        0 0 7px #A4763E,
+        0 0 10px #d1b490,
+        0 0 42px #f1efe7,
+        0 0 92px #f1efe7,
+        0 0 151px #f1efe7;
+
+    }
+    0% {        
+        text-shadow:
+        0 0 7px #A4763E,
+        0 0 10px #d1b490,
+        0 0 40px #f1efe7,
+        0 0 90px #f1efe7,
+        0 0 149px #f1efe7;
+    }    
+  }
+#hero-msg h4 {
+    text-align: center;
+    color: #d1b490;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin-top: 10px;
+}
+#hero-box {
+    grid-column: 1/4;
+    grid-row: 1/4;
+    z-index: -1;
+    background-color: black;
+    border: 5px transparent;
+    box-shadow: 5px 5px 10px grey;
+}
+#hero-msg {
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
+.button-box {
+    text-align: center;
+}
+.read-more {
+    background-color: black;
+    color: #f1efe7;
+    text-decoration: none;
+    font-family: 'Montserrat', 'sans-serif';
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.read-more:hover {
+    background-color: #f1efe7;
+    color: black;
+}
+.home-grid {
+    display: grid;
+    grid-template-columns: 1fr 3fr .5fr 3fr .5fr 3fr 1fr;
+}
+.home-msg {
+    grid-column: 1/8;
+    grid-row: 1;
+    font-family: 'Montserrat', sans-serif;
+    border: 5px transparent;
+    box-shadow: 5px 5px 10px grey;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #f1efe7;
+    background: linear-gradient(#f1efe7, white);
+}
+.recipe1-card {
+    grid-column: 2/3;
+    margin: 0;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    border: 5px transparent;
+    box-shadow: 5px 5px 10px grey;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.recipe2-card {
+    grid-column: 4/5;
+    margin: 0;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    border: 5px transparent;
+    box-shadow: 5px 5px 10px grey;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
+.recipe3-card {
+    grid-column: 6/7;
+    margin: 0;
+    background: white;
+    color: black;
+    border-radius: 20px;
+    border: 5px transparent;
+    box-shadow: 5px 5px 10px grey;
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+}
 .card1-img {
-    width: 50%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .card2-img {
-    width: 50%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
 }
 .card3-img {
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+footer {
+    background-color: #88aaaa;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    color: black;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: none;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+footer .social img {
+    padding-top: 15px;
+}
+/*FAQ PAGE*/
+#faq-img {
     width: 50%;
 }
+/*ABOUT PAGE*/
 #about-img {
     width: 50%;
 }
@@ -17,8 +213,5 @@
     width: 50%;
 }
 .future-img {
-    width: 50%;
-}
-#faq-img {
     width: 50%;
 }
