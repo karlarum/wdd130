@@ -18,6 +18,7 @@ nav a {
     color: black;
     text-decoration: none;
     padding: 35px;
+    font-family: 'Montserrat';
 }
 nav {
     display: flex;
