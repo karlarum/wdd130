@@ -1,7 +1,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a | */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=Montserrat:wght@200&family=Raleway:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC&family=League+Spartan:wght@800&family=Montserrat:wght@200;300&display=swap');
 
 :root {
   /* change the values below to your colors from your palette */
@@ -11,7 +11,7 @@ Fonts are separated by a | */
   --accent2-color: #d1b490;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "IM Fell French Canon SC";
+  --heading-font: "League Spartan";
   --paragraph-font: Montserrat, Raleway;
 
   /* these colors below should be chosen from among your palette colors above */
