@@ -202,7 +202,7 @@ footer .social img {
 }
 /*FAQ PAGE*/
 #faq {
-    padding-top: 10px;
+    padding-top: 30px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -213,19 +213,18 @@ footer .social img {
     box-shadow: 5px 5px 10px grey;
 }
 .faq-title {
+    padding-top: 50px;
     grid-column: 1/2;
-    font-family: 'Montserrat';
-    font-weight: bolder;
-    font-size: 3em;
+    font-family: 'League Spartan';
+    font-size: 5em;
 }
 #faq-msg h4 {
     font-family: 'Montserrat';
     font-size: 1.25em;
 }
 .faq-heading {
-    font-family: 'Montserrat';
-    font-size: 2.5em;
-    font-weight: bolder;
+    font-family: 'League Spartan';
+    font-size: 3em;
     text-align: center;
 }
 .panel {
@@ -233,7 +232,7 @@ footer .social img {
 }
 /* Style the buttons that are used to open and close the accordion panel */
 .accordion {
-    background-color: #eee;
+    background-color: #f1efe7;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -246,7 +245,7 @@ footer .social img {
   
   /* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
   .active, .accordion:hover {
-    background-color: #ccc;
+    background-color: #cbcbd4;
   }
   
   /* Style the accordion panel. Note: hidden by default */
