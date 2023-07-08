@@ -263,22 +263,22 @@ footer .social img {
 * {box-sizing:border-box}
 
 #about-box {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 }
 #about-msg {
     font-family: 'Montserrat';
-    grid-column: 1/2;
+    justify-items: flex-start;
     width: 50%;
 }
 .slideshow-container {
   max-width: 50%;
   position: relative;
   margin: auto;
-  grid-column: 2/3;
+  justify-items: flex-end;
 }
 .mySlides {
   display: none;
+  justify-self: flex-end;
 }
 .prev, .next {
   cursor: pointer;
