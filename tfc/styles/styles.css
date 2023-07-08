@@ -227,6 +227,10 @@ footer .social img {
     font-size: 3em;
     text-align: center;
 }
+.faq-button-box {
+    padding-top: 20px;
+    text-align: left;
+}
 .panel {
     font-family: 'Montserrat';
 }
