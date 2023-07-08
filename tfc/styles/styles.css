@@ -40,7 +40,10 @@ nav a:hover {
     text-shadow: 
     0 0 7px #A4763E,
     0 0 10px #d1b490,
+    0 0 20px #d1b490,
+    0 0 30px #d1b490,
     0 0 42px #f1efe7,
+    0 0 52px #f1efe7,
     0 0 92px #f1efe7,
     0 0 151px #f1efe7;
     animation: pulsate 0.11s ease-in-out infinite alternate;
@@ -199,12 +202,15 @@ footer .social img {
 }
 /*FAQ PAGE*/
 #faq {
+    padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
 #faq-img {
     width: 100%;
     grid-column: 2/3;
+    border: 5px transparent;
+    box-shadow: 5px 5px 10px grey;
 }
 .faq-title {
     grid-column: 1/2;
@@ -214,11 +220,11 @@ footer .social img {
 }
 #faq-msg h4 {
     font-family: 'Montserrat';
-    font-size: 1.5em;
+    font-size: 1.25em;
 }
 .faq-heading {
     font-family: 'Montserrat';
-    font-size: 3em;
+    font-size: 2.5em;
     font-weight: bolder;
     text-align: center;
 }
