@@ -133,6 +133,11 @@ nav a:hover {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
 }
+.recipe1-card h2, h3, p {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
 .recipe2-card {
     grid-column: 4/5;
     margin: 0;
@@ -144,6 +149,10 @@ nav a:hover {
     font-family: 'Montserrat', sans-serif;
     width: 100%;
 }
+.recipe2-card h2, h3, p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
 .recipe3-card {
     grid-column: 6/7;
     margin: 0;
@@ -154,6 +163,10 @@ nav a:hover {
     box-shadow: 5px 5px 10px grey;
     font-family: 'Montserrat', sans-serif;
     width: 100%;
+}
+.recipe3-card h2, h3, p {
+    padding-left: 15px;
+    padding-right: 15px;
 }
 .card1-img {
     width: 100%;
