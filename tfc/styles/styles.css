@@ -121,8 +121,8 @@ nav a:hover {
     margin-left: 125px;
     margin-right: 125px;
     margin-bottom: 30px;
-    border-top: 1px solid #888;
-    border-bottom: 1px solid #888;
+    border-top: 1px solid #cbcbd4;
+    border-bottom: 1px solid #cbcbd4;
 }
 .recipe1-card {
     grid-column: 2/3;
