@@ -291,7 +291,7 @@ footer .social img {
 #about-msg {
     font-family: 'Montserrat';
     justify-items: flex-start;
-    width: 50%;
+    width: 45%;
     margin-top: 150px;
     font-size: 20px;
 }
@@ -312,7 +312,6 @@ footer .social img {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  max-width: 1600px;
   padding: 20px;
   color: white;
   font-weight: bold;
@@ -340,6 +339,8 @@ footer .social img {
 .about-grid {
     font-family: 'Montserrat';
     font-size: 20px;
+    width: 90%;
+    padding-left: 135px;
 }
 .about-grid h1 {
     text-align: center;
